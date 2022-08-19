@@ -38,3 +38,4 @@ lerna-debug.log*
 *.tsbuildinfo
 docs
 .env
+# ./uploads.sh
