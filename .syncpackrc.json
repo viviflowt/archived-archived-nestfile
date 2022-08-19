@@ -44,6 +44,7 @@
         "prettier",
         "lint-staged",
         "config",
+        "publishConfig",
         "peerDependencies",
         "dependencies",
         "devDependencies"

@@ -10,9 +10,9 @@ import { options } from './options';
 const program = new Command();
 
 program
-  .name('nestfile')
-  .version('0.0.1', '--version', 'output the version')
-  .description('NestJs file generator CLI')
+  .name('makefile')
+  .version('0.0.2', '--version', 'output the version')
+  .description('File generator for NestJs projects.')
   .showSuggestionAfterError(true)
   .configureHelp({
     sortOptions: false,
@@ -89,26 +89,23 @@ program
     const relativePath = path.relative(process.cwd(), filePath);
 
     if (fs.existsSync(filePath) && !setup.force && !setup.dryRun) {
-      log(
-        chalk.red(`${relativePath} already exists.`),
-        chalk.yellowBright('Use -f or --force to overwrite.'),
-      );
-
+      log(chalk.red('File already exists'));
       process.exit(1);
     }
 
     if (setup?.dryRun === true) {
-      chalk.gray(`Would create file ${filePath} ...\n`);
+      chalk.gray(`Would create file ${filePath}`);
+      log(chalk.italic(relativePath), chalk.green('created'));
       process.exit(0);
     }
 
     await fs.promises
       .writeFile(filePath, '')
       .then(() => {
-        log(chalk.green(`File ${relativePath} created.\n`));
+        log(chalk.italic(relativePath), chalk.greenBright('created'));
       })
-      .catch((err) => {
-        log(chalk.red(`Error creating file ${relativePath}: ${err.message}\n`));
+      .catch(() => {
+        log(chalk.red('File could not be created'));
         process.exit(1);
       });
   });

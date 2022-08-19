@@ -1,0 +1,21 @@
+{
+    "ignores": [
+        "eslint",
+        "babel-*",
+        "eslint-*",
+        "webpack",
+        "@faker-js/faker",
+        "auto-changelog",
+        "expect-type",
+        "ts-jest",
+        "jest",
+        "jest-extended",
+        "typesync",
+        "tslib",
+        "@types/*",
+        "type-fest",
+        "ttypescript",
+        "weak-napi"
+    ],
+    "skip-missing": true
+}
