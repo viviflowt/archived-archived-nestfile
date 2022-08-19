@@ -2,7 +2,7 @@
 
 clear
 
-NAME=tsb
+NAME=@viviflowt/makefile
 
 npm remove -g --force "$NAME" 
 npm list -g --depth 0 | grep "$NAME" 

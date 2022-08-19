@@ -1,6 +1,5 @@
 import 'jest-ts-auto-mock';
 import 'jest-extended';
-import 'reflect-metadata';
 
 export default {
   preset: 'ts-jest',
@@ -23,7 +22,4 @@ export default {
   testTimeout: 4 * 60 * 1000, // 4 minutes
   setupFilesAfterEnv: ['jest-extended/all'],
   roots: ['<rootDir>/src/'],
-  moduleNameMapper: {
-    '^@nestjsrad/typegoose(|/.*)$': '<rootDir>/$1',
-  },
 };
