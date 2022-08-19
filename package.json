@@ -1,6 +1,6 @@
 {
   "name": "@viviflowt/makefile",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "File generator for NestJs projects",
   "license": "MIT",
   "author": "Viviane Florido",
@@ -38,9 +38,8 @@
     "format": "prettier --write **/*.ts && syncpack format",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "prebuild": "rimraf dist",
-    "prerelease": "run-s format lint",
     "release": "release-it",
-    "test": "node --expose-gc ./node_modules/.bin/jest --runInBand --logHeapUsage",
+    "test": "node --expose-gc ./node_modules/.bin/jest --runInBand --logHeapUsage --passWithNoTests",
     "test:ci": "jest --coverage --forceExit --runInBand --no-cache",
     "test:clear": "jest --clearCache",
     "test:cov": "jest --coverage --no-cache",
