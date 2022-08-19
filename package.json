@@ -16,7 +16,7 @@
     "make"
   ],
   "bin": {
-    "makef": "dist/main.js"
+    "nestfile": "dist/main.js"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

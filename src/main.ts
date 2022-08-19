@@ -12,7 +12,7 @@ import { options } from './options';
 const program = new Command();
 
 program
-  .name('makefile')
+  .name('nestfile')
   .version('0.0.2', '--version', 'output the version')
   .description('File generator for NestJs projects.')
   .showSuggestionAfterError(true)
