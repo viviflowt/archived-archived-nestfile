@@ -20,7 +20,7 @@ $ npm i -g @viviflowt/makefile
 $ makefile [options] <name>
 ```
 
-**@viviflowt/makefile** is distributed under the _[MIT](https://opensource.org/licenses/MIT)_.
+**@viviflowt/makefile** Licence _[MIT](https://opensource.org/licenses/MIT)_.
 
 [github-image]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
 
