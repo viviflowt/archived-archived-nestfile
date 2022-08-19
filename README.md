@@ -1,15 +1,8 @@
 # @viviflowt/makefile
 
-### _MakeFile CLI_ (Under Develpment)
-
-### Description
+## Description
 
 File generator for NestJs projects.
-
-### Requirements
-
-node >= 12
-npm >= 6
 
 ## Installation
 
@@ -17,7 +10,7 @@ npm >= 6
 $ npm i -g @viviflowt/makefile
 ```
 
-### Usage
+## Usage
 
 ```bash
 $ makef [options] <name>
