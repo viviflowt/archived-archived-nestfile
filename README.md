@@ -16,7 +16,9 @@ $ npm i -g @viviflowt/makefile
 
 ### Usage
 
-makefile [options] <name>
+```bash
+$ makefile [options] <name>
+```
 
 **[Viviane Florido](https://ph7.me)**, a highly passionate, zen &amp; pragmatic software engineer 😊
 
