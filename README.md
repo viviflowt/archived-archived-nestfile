@@ -19,6 +19,8 @@ $ npm i -g @viviflowt/makefile
 
 ## Usage
 
-makef [options] <name>
+```bash
+$ makef [options] <name>
+```
 
 License _[MIT](https://opensource.org/licenses/MIT)_.
