@@ -1,12 +1,12 @@
 {
-  "name": "@viviflowt/makefile",
-  "version": "0.0.4",
+  "name": "@viviflowt/nestfile",
+  "version": "0.0.5",
   "description": "File generator for NestJs projects",
   "license": "MIT",
   "author": "Viviane Florido",
-  "repository": "viviflowt/makefile.git",
-  "homepage": "https://github.com/viviflowt/makefile#readme",
-  "bugs": "https://github.com/viviflowt/makefile/issues",
+  "repository": "viviflowt/nestfile.git",
+  "homepage": "https://github.com/viviflowt/nestfile#readme",
+  "bugs": "https://github.com/viviflowt/nestfile/issues",
   "keywords": [
     "applications",
     "create",
