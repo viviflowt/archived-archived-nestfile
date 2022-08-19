@@ -1,7 +1,7 @@
 {
   "name": "nestfile-cli",
-  "version": "0.0.1",
-  "description": "CLI for quickly create files for development purposes",
+  "version": "0.0.2",
+  "description": "NestJs file generator CLI",
   "license": "MIT",
   "private": false,
   "author": "Viviane Florido @vivianeflowt",
